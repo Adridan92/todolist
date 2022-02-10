@@ -9,7 +9,7 @@
   <br>
 </p>
 
-### Prerequisites
+### Prerequisitos
 
 - Tener instalado python3.6
 
