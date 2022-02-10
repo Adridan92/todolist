@@ -9,8 +9,16 @@
   <br>
 </p>
 
+### Prerequisites
 
-## Documentation
+- Tener instalado python3.6
+
+
+## Instalación
+
+- Debe crear su entorno virtual con python 3.6
+
+- Intalar el requirements.txt
 
 - Para iniciar el proyecto primero debe crear la base de datos con nombre todolist
 y hacer la importación del archivo todolist.sql
@@ -22,13 +30,7 @@ y hacer la importación del archivo todolist.sql
 - Ejecutar python manage runserver
 
 
-### Prerequisites
 
-- Debe crear su entorno virtual con python 3.6
-
-- Intalar el requirements.txt
-
-
-### Want to Help?
+### Quieres ayudar?
 
 Si deseas mejorar el codigo, puedes escribirme a adridan1992@gmail.com
