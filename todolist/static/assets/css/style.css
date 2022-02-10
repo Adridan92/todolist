@@ -1,0 +1,20 @@
+.pending{
+    background-color: #ef476f;
+}
+
+.process{
+    background-color: #4895ef;
+}
+
+.finish{
+    background-color: #06d6a0;
+}
+
+.login-body {
+    background-size: cover;
+      background-position: center;
+    background-image: url('/static/assets/imgs/login-back.jpg');
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;      
+  }

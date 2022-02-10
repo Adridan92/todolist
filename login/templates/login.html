@@ -1,0 +1,35 @@
+{% load staticfiles %}
+<html ng-app="Login">
+    <head>
+        <title>Login</title>
+        <link href='{% static "assets/css/bootstrap.min.css" %}' type="text/css" rel="stylesheet">
+        <link href='{% static "assets/css/style.css" %}' type="text/css" rel="stylesheet">
+    </head>
+    <body class="login-body">
+        <div ng-controller="LoginController">
+            <div class="col-md-12" style="padding:100px;">
+                <div class="offset-md-4 col-md-4" style="padding:50px; background-color: #457b9d;">
+                    <div style="display: flex; flex-direction: column;">                        
+                        <div class="form-group">
+                            <input class="form-control" type="text" name="username" placeholder="Usuario"  autocomplete="off" ng-model="username"/>
+                        </div>
+                
+                        <div class="form-group">
+                            <input class="form-control" type="password" name="password" placeholder="Password" autocomplete="off" ng-model="password"/>
+                        </div>
+                        <input class="btn btn-primary" type="button" value="ACCESAR" ng-click="login()"></input>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src='/static/assets/js/angular.min.js'></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/ngstorage/0.3.6/ngStorage.min.js"></script>
+        <script src="/static/app/loginApp.js"></script>
+
+        <script src="/static/assets/js/bootstrap.min.js"></script>
+
+
+
+    </body>
+</html>

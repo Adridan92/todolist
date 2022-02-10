@@ -1,0 +1,35 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html ng-app="Task">
+    <head>
+        <title>TO DO LIST</title>
+        <link href='{% static "assets/css/bootstrap.min.css" %}' type="text/css" rel="stylesheet">
+        <link href='{% static "assets/css/style.css" %}' type="text/css" rel="stylesheet">
+    </head>
+    <body ng-controller="MainController" ng-init="init()" style="background-color: #89c2d9;">
+
+
+        <header>
+
+        </header>
+        <div style="padding: 50px;">
+            <div ng-view></div>
+        </div>
+
+        <footer>
+
+        </footer>
+
+
+        <script src='/static/assets/js/angular.min.js'></script>
+        <script src='/static/assets/js/angular-route.min.js'></script>
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/ngstorage/0.3.6/ngStorage.min.js"></script>
+        <script src="/static/app/app.js"></script>
+        <script src="/static/app/modules/todolist/todolist.module.js"></script>
+        <script src="/static/app/modules/todolist/components/task/task.service.js"></script>
+        <script src="/static/app/modules/todolist/components/task/task.component.js"></script>
+
+        <script src="/static/assets/js/bootstrap.min.js"></script>
+    </body>
+</html>
