@@ -2,7 +2,7 @@
 <h1 align="center">DJANGO 2  - AngularJS  TODOLIST</h1>
 
 <p align="center">
-  <img src="screenshot.png" alt="angular-logo" width="120px" height="120px"/>
+  <img src="screenshot.png" alt="angular-logo" width="90%"/>
   <br>
   <i>Proyecto de lista de tareas
     <br> utilizando mysql, angularjs y django2</i>
